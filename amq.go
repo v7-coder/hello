@@ -3,5 +3,5 @@ package hello
 import "fmt"
 
 func SendMessage(message string) {
-	fmt.Println("Hello im message")
+	fmt.Println(fmt.Sprintf("Hello %s", message))
 }
